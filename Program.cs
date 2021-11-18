@@ -10,7 +10,9 @@ namespace LinqProject
         static void Main(string[] args)
         {
             //Console.WriteLine("Welcome to product review management system");
+
             //UC1
+
             List<ProductReview> productReviewList = new List<ProductReview>()
             {
                 new ProductReview(){ProductId = 1, UserID=1, Rating = 5, Review ="Good",isLike = true },
